@@ -11,7 +11,8 @@
     max-width:300px
 }
 
-body {background-color: #FFECAD;}
+body {background-color: #FFECAD;
+}
 
 .intro-image img {
     width: 100%;
@@ -67,7 +68,7 @@ main h3 {
     text-shadow: 4px 4px 10px #222801;
     
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -159,19 +160,27 @@ footer {
 
     .intro-txt-heading{
         width:50%;
-        margin-right:10px;
+        margin-left:px;
     }
     .txt-image {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: left;}
+        flex-flow: row wrap;}
     .chef-pic {
         display:inline-flex;
-        aspect-ratio:2/1;
-        max-width:40%;
-        margin-left:20px;
-        margin-top:30px;
+        aspect-ratio:3/2;
+        max-width:45%;
+        margin-left:40px;
+        margin-top:60px;
+        justify-content:right;
 
     }
+    .intro-image img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:50px;
+    }
+    body{margin:5%}
 
 }
