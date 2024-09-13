@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.gallery-image img {
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    max-width:484px
+}
+
+body {background-color: #FFECAD;}
+
+.intro-image img {
+    width: 100%;
+}
+
+header h1 {
+    font-family: "Lora, serif";
+    font-weight: 4;
+    font-size: 50px;
+    color: #BF3100;
+    line-height: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+header h2 {
+    font-family: "Nunito";
+    font-weight: 75000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #222801;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main h3 {
+    font-family: "lora";
+    font-weight: 75000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #BF3100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:30px;
+}
+
+.gallery-image {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.post-header {
+    font-family: "nunito";
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: 3px;
+    color: #FFECAD;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px #222801;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-basis: 300px;}
+
+.intro-txt {
+    font-family: "nunito";
+    font-weight: 700;
+    font-size: 14px;
+    color: #222801;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+footer {
+    background-color: #FBBA37;
+    margin-left:10px}
+
+.footer-sm {
+    width: 40px;
+    float: right;
+    margin-top:25px;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact{
+    color:#222801;
+    width: fit-content;
+    float: left;
+    padding-left: 5px;
+    font-family:"nunito";
+    font-size:17px;
+}
+
+hr {
+    border-color:#FBBA37;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    width: calc(100% - 80px);
+    padding: 30px 30px;
+    background-color:#FBBA37;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.navbar a {
+    font-family:"nunito";
+    text-transform: uppercase;
+    color: #140600;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;}
+
+
+.chef-pic {
+    display:none;
+}
+
+@media only screen and (min-width: 950px) {
+
+    header h1 {
+        font-size: 70px;
+    }
+
+    header h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .intro-txt-heading{
+        width:50%;
+        margin-right:10px;
+    }
+    .txt-image {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;}
+    .chef-pic {
+        display:inline-flex;
+        aspect-ratio:2/1;
+        max-width:40%;
+        margin-left:20px;
+        margin-top:30px;
+
+    }
+
+}
